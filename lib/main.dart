@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Rhoda E-commerce Application',
       theme: ThemeData(
         textTheme: ThemeData.light().textTheme.copyWith(
           headline1: TextStyle(
