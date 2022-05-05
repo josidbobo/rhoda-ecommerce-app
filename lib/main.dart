@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Rhoda E-commerce Application',
+      title: 'Rhoda Ecommerce Website',
       theme: ThemeData(
         textTheme: ThemeData.light().textTheme.copyWith(
           headline1: TextStyle(
