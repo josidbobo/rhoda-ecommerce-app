@@ -52,7 +52,7 @@ class _TabsScreenState extends State<TabsScreen> {
                 Icons.home,
                 color: Colors.black,
               ) : const Icon(Icons.home_outlined),
-              title: Container(
+              activeIcon: Container(
                 height: 1.2,
               )),
           BottomNavigationBarItem(
@@ -60,7 +60,7 @@ class _TabsScreenState extends State<TabsScreen> {
                 Icons.favorite,
                 color: Colors.black,
               ) : const Icon(Icons.favorite_border_outlined),
-              title: Container(
+              activeIcon: Container(
                 height: 1.2,
               )),
           BottomNavigationBarItem(
@@ -68,7 +68,7 @@ class _TabsScreenState extends State<TabsScreen> {
                 Icons.shopping_cart_sharp,
                 color: Colors.black,
               ) : const Icon(Icons.shopping_cart_outlined),
-              title: Container(
+              activeIcon: Container(
                 height: 1.2,
               )),
           BottomNavigationBarItem(
@@ -83,7 +83,7 @@ class _TabsScreenState extends State<TabsScreen> {
                   ),
                 ),
               ),
-              title: Container(
+              activeIcon: Container(
                 height: 3.8,
               )),
         ],
